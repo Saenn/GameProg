@@ -55,9 +55,9 @@ private Card card;
 	}
 	
 	//Draw a top card
-	public Card draw(Deck deck){
-		Card card = deck.getCard(0);
-		deck.removeCard(0);
+	public Card draw(){
+		Card card = this.getCard(0);
+		this.removeCard(0);
 		return card;
 	}
 	
